@@ -30,6 +30,8 @@
   margin: 0;
   padding: 0;
 
+  cursor: pointer;
+
   border: none;
 }
 
@@ -89,7 +91,7 @@ input[type="text"] {
 }
 
 input[type="text"]::placeholder {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 .icon-search {
@@ -120,9 +122,9 @@ input[type="text"]::placeholder {
 .profile-pic {
   height: 70px;
 
+  border: 1px solid var(--color-white);
   border-radius: 50%;
   background: var(--color-profile-background);
-  border: 1px solid var(--color-white);
 }
 
 .testing p:last-child,
@@ -143,8 +145,8 @@ input[type="text"]::placeholder {
 }
 
 .light-mode {
-  background: var(--color-lightmode);
   color: white;
+  background: var(--color-lightmode);
 }
 
 .setting-box {
@@ -179,10 +181,10 @@ input[type="text"]::placeholder {
   margin-right: 5px;
 }
 
-#icon-toggle {
-  cursor: pointer;
-}
-
 .contrast-outline {
-  margin-right: 18px;
+  width: 50px;
+  margin-right: 6px;
+
+  border-radius: 5px;
+  background: var(--color-lightgrey);
 }
