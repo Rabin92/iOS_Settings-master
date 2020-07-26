@@ -30,8 +30,6 @@
   margin: 0;
   padding: 0;
 
-  cursor: pointer;
-
   border: none;
 }
 
@@ -179,6 +177,10 @@ input[type="text"]::placeholder {
 
 .icon {
   margin-right: 5px;
+}
+
+svg#icon-toggle {
+  cursor: pointer;
 }
 
 .contrast-outline {
